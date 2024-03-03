@@ -55,6 +55,7 @@ const Form = () => {
         let validate = isValidEmail || isValidpassword;
         if(validate == false){
             alert("submit succesfully")
+            setErrorTimeout(false)
         } else{
             setTimeout(() => {
                 seterrorMessage([{}])
