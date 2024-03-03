@@ -1,0 +1,11 @@
+.section_padding {
+  padding: 30px;
+  margin: 30px;
+  position: absolute;
+  right: 40%;
+  top: 17%;
+}
+.error_text{
+  color: red;
+}
+.true_none{display: none;}
